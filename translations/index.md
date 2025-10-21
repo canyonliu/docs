@@ -6,7 +6,7 @@ url: /translations/index.md
 
 ## Available Languages {#available-languages}
 
-- [liuqingcan * wm](https://canyonliu.github.io/docs/api/) 
+- [liuqingcan * wm](https://canyonliu.github.io/docs/api/)  [[source](https://github.com/vuejs/docs)]
 - [English](https://vuejs.org/) [[source](https://github.com/vuejs/docs)]
 - [简体中文 / Simplified Chinese](https://cn.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-zh-cn)]
 - [日本語 / Japanese](https://ja.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-ja)]

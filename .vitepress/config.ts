@@ -587,6 +587,7 @@ function inlineScript(file: string): HeadConfig {
 
 export default defineConfigWithTheme<ThemeConfig>({
   extends: baseConfig,
+  base: '/docs/',
 
   sitemap: {
     hostname: 'https://vuejs.org'

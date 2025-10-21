@@ -9,6 +9,7 @@ defineProps<{ title?: string }>()
     <template #title>{{ title || 'Vue Partners' }}</template>
     <template #lead>
       <p>
+        lqc & wm贡献
         Vue Partners are Vue-team endorsed agencies that provide first-class
         Vue consulting and development services. If your company is
         interested in being listed as a partner, please

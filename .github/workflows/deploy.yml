@@ -9,27 +9,27 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout-下载代码
         uses: actions/checkout@v3
 
-      - name: Setup pnpm
+      - name: Setup pnpm-安装pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 8
 
-      - name: Setup Node.js
+      - name: Setup Node.js-安装node
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: 'pnpm'
 
-      - name: Install dependencies
+      - name: Install dependencies-安装依赖
         run: pnpm install
 
-      - name: Build
+      - name: Build-执行构建,生成静态文件
         run: pnpm run build
 
-      - name: Deploy
+      - name: Deploy-自动化部署
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
